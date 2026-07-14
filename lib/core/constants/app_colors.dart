@@ -30,4 +30,5 @@ class AppColors {
   static const Color color97 = Color(0xff979797);
   static const Color colorF6 = Color(0xfff6f6f6);
   static const Color colorCancel = Color(0xffFF0A0A);
+  static const Color primaryGreen = Color(0xFF53B175);
 }

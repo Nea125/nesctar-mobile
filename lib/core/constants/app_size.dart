@@ -11,6 +11,8 @@ class FontSize {
   static const double medium = 14.0;
   static const double title = 16.0;
   static const double heading = 18.0;
+  static const double extraLarge = 24.0;
+  static const double huge = 32.0;
 }
 
 class AppRadius {

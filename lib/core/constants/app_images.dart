@@ -12,12 +12,19 @@ class AppImages {
 
   // SVG 
 
-  static String get carrotIcon => toPng("carrot_icon");
-  static String get loginImage => toPng("login_images");
-  static String get orderFail => toPng("order_fail");
-  static String get orderSuccess => toPng("order_success");
-  static String get redCarrot => toPng("red_carrot");
-  static String get splashIcon => toPng("splash_icon");
+  static String get carrotIcon => toSvg("carrot_icon");
+  static String get loginImage => toSvg("login_images");
+  static String get orderFail => toSvg("order_fail");
+  static String get orderSuccess => toSvg("order_success");
+  static String get redCarrot => toSvg("red_carrot");
+  static String get splashIcon => toSvg("splash_icon");
+  static String get personImage => toSvg("person_image");
+  static String get googleIcon => toSvg("google");
+  static String get facebookIcon => toSvg("facebook");
+
+  // PNG
+  static String get personImagePNG => toPng("person_image");
+  static String get loginImagePNG => toPng("login_image");
 
 
 
