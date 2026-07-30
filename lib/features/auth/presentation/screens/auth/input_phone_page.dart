@@ -3,6 +3,7 @@ import 'package:nestar_mobile/core/constants/app_colors.dart';
 import 'package:nestar_mobile/core/constants/app_text.dart';
 import 'package:nestar_mobile/core/constants/wigets/country_code_widget.dart';
 import 'package:nestar_mobile/core/utils/log.dart';
+import 'package:nestar_mobile/features/auth/presentation/screens/auth/input_otp_page.dart';
 
 class InputPhonePage extends StatefulWidget {
   const InputPhonePage({super.key});
@@ -49,7 +50,13 @@ class _InputPhonePageState extends State<InputPhonePage> {
           backgroundColor: AppColors.primary,
           shape: const CircleBorder(),
           onPressed: () {
-            printMe("Netxt_Page");
+            // printMe("Netxt_Page");
+             Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const VerificationPage(),
+                      ),
+                    );
           },
           child: const Icon(
             Icons.arrow_forward_ios,

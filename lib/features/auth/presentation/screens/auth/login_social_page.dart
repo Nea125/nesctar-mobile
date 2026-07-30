@@ -6,16 +6,16 @@ import 'package:nestar_mobile/core/constants/app_text.dart';
 import 'package:nestar_mobile/core/constants/wigets/app_button.dart';
 import 'package:nestar_mobile/core/constants/wigets/country_code_widget.dart';
 import 'package:nestar_mobile/core/utils/log.dart';
-import 'package:nestar_mobile/features/auth/presentation/input_phone_page.dart';
+import 'package:nestar_mobile/features/auth/presentation/screens/auth/input_phone_page.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class LoginSocialPage extends StatefulWidget {
+  const LoginSocialPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<LoginSocialPage> createState() => _LoginSocialPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginSocialPageState extends State<LoginSocialPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
