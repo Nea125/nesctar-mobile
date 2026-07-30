@@ -7,7 +7,7 @@ import 'package:nestar_mobile/core/constants/wigets/app_button.dart'
     show AppButton;
 import 'package:nestar_mobile/core/utils/extension/context.dart';
 import 'package:nestar_mobile/core/utils/log.dart';
-import 'package:nestar_mobile/features/auth/presentation/login_page.dart';
+import 'package:nestar_mobile/features/auth/presentation/screens/auth/login_social_page.dart';
 
 class AppWelcomePage extends StatefulWidget {
   const AppWelcomePage({super.key});
@@ -71,7 +71,7 @@ class _AppWelcomePageState extends State<AppWelcomePage> {
                 printMe("GET STARTED PRESSED");
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (_) => const LoginPage()),
+                  MaterialPageRoute(builder: (_) => const LoginSocialPage()),
                 );
               },
             ),
